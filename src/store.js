@@ -38,6 +38,8 @@ export const store = reactive({
           })
           .then((res) => {
           this.series = res.data.results;
+
+          this.searchText = '';
          }
         );
         }, // Funzione per ricercare all'interno del database inserendo qualcosa nell'input di ricerca

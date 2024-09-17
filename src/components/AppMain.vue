@@ -33,6 +33,9 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
-
+main {
+    min-height: calc(100vh - 66px);
+    background-color: black;
+}
 
 </style>
