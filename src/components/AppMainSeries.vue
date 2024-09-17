@@ -25,7 +25,6 @@ export default {
 <template>
   <main>
     <ol>
-        <h1>Series</h1>
         <AppSingleSerieCard />
     </ol>
   </main>
@@ -33,7 +32,8 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
-  h1 {
-      color: white;
-  }
+    ol {
+      padding: 0;
+      margin: 0 auto;
+    }
 </style>

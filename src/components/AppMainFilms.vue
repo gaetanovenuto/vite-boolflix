@@ -24,15 +24,15 @@ export default {
 
 <template>
     <ol>
-        <h1>Movies</h1>
         <AppSingleMovieCard />
     </ol>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
-    h1 {
-        color: white;
+    ol {
+      padding: 20px;
+      margin: 0 auto;
     }
 
 </style>

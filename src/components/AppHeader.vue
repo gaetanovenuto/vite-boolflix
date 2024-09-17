@@ -184,7 +184,7 @@ header {
 
         .searchbox {
           background-color: black;
-          border: 1px solid white;
+          border: 1px solid rgb(255, 255, 255);
           border-radius: 5px;
           box-shadow: none;
           margin: 0 10px;
